@@ -1,2 +1,2 @@
 # JavaScript
-different methods to control html text ,images and paragraph
+different methods to control html text ,images ,paragraph and mouse hover event
