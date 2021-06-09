@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <img id="i" onmouseover="bigImg()" onmouseout="normalImg()" border="0" src="C:\Users\HARSH TRIPATHI\Downloads\1200px-Image_created_with_a_mobile_phone.png" width="50" height="50">
+    <p>the function bigImg() is triggered when the user moves the mouse pointer over the image</p>
+    <p>the function normalImg() is triggered when mouse pointer is moved</p>
+    <script>
+        function bigImg() {
+            document.getElementById('i').style.height = "100px";
+            document.getElementById('i').style.width = "100px";
+        }
+
+        function normalImg() {
+            document.getElementById('i').style.height = "40px";
+            document.getElementById('i').style.width = "40px";
+        }
+    </script>
+</body>
+
+</html>
